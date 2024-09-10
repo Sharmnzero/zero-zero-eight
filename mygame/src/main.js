@@ -1,3 +1,7 @@
 import kaplay from "kaplay";
-
-kaplay()
+kaplay({
+    debugKey:"b",
+    font:"script",
+})
+//load fonts
+loadFont("script","fonts/SankofaDisplay-Regular.ttf")
